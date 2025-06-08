@@ -673,18 +673,12 @@ function App() {
                 </ol>
               </div>
 
-              <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-                <button
-                  onClick={submitAnswer}
-                  disabled={selectedOrder.length < 4 || status}
-                >
-                  Submit Answer
-                </button>
-                <button
-                  onClick={resetAnswer}
-                  disabled={selectedOrder.length === 0 || status}
-                >
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem' }}>
+                <button onClick={resetAnswer} disabled={selectedOrder.length === 0 || status}>
                   Reset Answer
+                </button>
+                <button onClick={submitAnswer} disabled={selectedOrder.length < 4 || status}>
+                  Submit Answer
                 </button>
               </div>
             </>
