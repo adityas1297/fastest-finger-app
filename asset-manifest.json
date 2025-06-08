@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fastest-finger-app/static/css/main.e6c13ad2.css",
-    "main.js": "/fastest-finger-app/static/js/main.b1e44d17.js",
+    "main.js": "/fastest-finger-app/static/js/main.3b103f93.js",
     "index.html": "/fastest-finger-app/index.html",
     "main.e6c13ad2.css.map": "/fastest-finger-app/static/css/main.e6c13ad2.css.map",
-    "main.b1e44d17.js.map": "/fastest-finger-app/static/js/main.b1e44d17.js.map"
+    "main.3b103f93.js.map": "/fastest-finger-app/static/js/main.3b103f93.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b1e44d17.js"
+    "static/js/main.3b103f93.js"
   ]
 }
